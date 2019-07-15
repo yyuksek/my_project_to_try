@@ -1,0 +1,14 @@
+git status
+git add <file_name>
+git commit -m <file_name>
+git checkout -b <branch_name> //create branch
+git branch // check if the branch is set
+git remote add origin <project url which is given by github>
+git push -u origin master // to copy the local project to github repo
+git push origin <yourbranchname> // push the commit in your branch to your new GitHub repo
+git push git@github.com:git/git.git yourbranchname//same as the above command, the above has the alias "origin"
+git checkout <branch_name> // switch to branch called branch_name
+
+A hash code is a unique identifier for that specific commit. It's useful for referring to specific commits and when undoing changes (use the git revert <hash code number> command to backtrack).
+
+the commit you made in your branch and merged into the master branch doesn't exist in the master branch on your local machine. In order to get the most recent changes that you or others have merged on GitHub, use the git pull origin master command 
