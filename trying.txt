@@ -1,0 +1,9 @@
+git status
+git add <file_name>
+git commit -m <file_name>
+git checkout -b <branch_name> //create branch
+git branch // check if the branch is set
+git remote add origin <project url which is given by github>
+git push -u origin master // to copy the local project to github repo
+git pust origin <yourbranchname> // push the commit in your branch to your new GitHub repo
+git push git@github.com:git/git.git yourbranchname//same as the above command, the above has the alias "origin"
