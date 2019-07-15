@@ -17,3 +17,5 @@ the commit you made in your branch and merged into the master branch doesn't exi
 
 git push origin <yourbranchname> // push the commit in your branch to your new GitHub repo
 git push git@github.com:git/git.git yourbranchname//same as the above command, the above has the alias "origin"
+
+Guide: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
